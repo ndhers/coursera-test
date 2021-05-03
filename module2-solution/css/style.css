@@ -1,0 +1,108 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family: "Lucida Console", "Courier New", monospace;
+
+}
+h1 {
+  margin: 15px;
+  text-align: center;
+  font-size: 175%;
+}
+
+h2 {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width:35%;
+	text-align: center;
+	padding: 5px;
+	font-size: 125%;
+	border: 1px solid black;
+	
+}
+
+#Chicken {
+	color: black;
+	background-color: #F08080;
+}
+
+#Beef {
+	color: white;
+	background-color: #A52A2A;
+}
+
+#Sushi {
+	color: black;
+	background-color: #FFFACD;
+}
+
+
+p {
+  border: 1px solid black;
+  background-color: gray;
+  margin: 20px;
+  /*width: 90%;*/
+  /*margin-right: auto;
+  margin-left: auto;*/
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  color: black;
+ 
+}
+
+body div {
+	position: relative;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    /*border: 1px solid green;*/
+  }
+ 
+  .col-lg-4 {
+    width: 33.33%;
+  }
+ 
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+    /*border: 1px solid green;*/
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+ 
+  .col-md-12 {
+    width: 100%;
+  }
+
+}
+
+/********** Small devices only **********/
+
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    /*border: 1px solid green;*/
+  }
+ 
+  .col-sm-12 {
+    width: 100%;
+  }
+
+}
