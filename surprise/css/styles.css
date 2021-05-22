@@ -222,7 +222,7 @@ box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 
         /* A Media Query max-width: 786px */
 
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1000px) {
     /* Resized content to fit 786px  */
         body {
             max-width: 800px;
@@ -231,7 +231,11 @@ box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 
     #wrapper {
         position: absolute;
         left: 20%;
-        top: 60%;
+        top: 65%;
+    }
+
+    #wrapper_high {
+      left: 20%;
     }
 
     a {
@@ -252,7 +256,7 @@ box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 
     }
         
     /* A Media Query max-width: 640px */
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 750px) {
      /* Resized content to fit 640px  */
      body {
             min-width: 700px;
@@ -261,8 +265,13 @@ box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 
     #wrapper {
         position: absolute;
         left: 10%;
-        top: 70%;
+        top: 75%;
     }
+
+    #wrapper_high {
+      left: 10%;
+    }
+
       a {
           margin-left: 10%;
       }

@@ -114,7 +114,7 @@ var questionsDiv = document.querySelector("#questionsDiv");
 var wrapper = document.querySelector("#wrapper");
 
 // Seconds left is 15 seconds per question:
-var secondsLeft = 800;
+var secondsLeft = 600;
 var total_time = secondsLeft;
 // Holds interval time
 var holdInterval = 0;
